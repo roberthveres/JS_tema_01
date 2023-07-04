@@ -11,7 +11,7 @@ console.log(TrueOrFalseBoolean(30))
 
 //-------------------------------------
 
-let number = "2 ";
+let number = "8";
 let day;
 
 switch (number) {
@@ -36,6 +36,8 @@ switch (number) {
     case "7":   
         day = "Sunday";
         break;
+    default:
+        console.log(number + " " + "it is not a day of the week")    
 }
 
 console.log(day)
