@@ -10,6 +10,17 @@ const TrueOrFalseBoolean = (grade) => {
 console.log(TrueOrFalseBoolean(30))
 
 //-------------------------------------
+const locDeMunca = "Programator"
+const Nevasta = "Johanna"
+const Casa = "Transilvania"
+const Copii = "5"
+
+const concatenare = (a, b, c, d) => {
+   return "Eu voi fi " + a + "," + b + " va fi nevasta mea," + "vom trai in: " + c + " si vom avea " + d + " copii"
+}
+
+console.log(concatenare(locDeMunca,Nevasta,Casa,Copii))
+// ------------------------------------
 
 let number = "8";
 let day;
